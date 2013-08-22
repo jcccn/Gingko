@@ -1,0 +1,21 @@
+platform :ios,'6.0'
+
+pod 'JSONKit', :head
+
+pod 'SVPullToRefresh', :head
+
+pod 'SDWebImage', :head
+
+pod 'RestKit', :head
+
+pod 'MBProgressHUD', :head
+
+pod 'Reachability', :head
+
+pod 'BlocksKit', :head
+
+pod 'Appirater', :head
+
+pod 'MagicalRecord', :head
+
+pod 'RETableViewManager', :head
