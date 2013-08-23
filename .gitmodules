@@ -1,0 +1,12 @@
+[submodule "Gingko-iOS/External/ShareSDK"]
+	path = Gingko-iOS/External/ShareSDK
+	url = https://github.com/jcccn/ShareSDK-iOS.git
+[submodule "Gingko-iOS/External/UMAnalytics"]
+	path = Gingko-iOS/External/UMAnalytics
+	url = https://github.com/jcccn/UMeng-Analytics-iOS.git
+[submodule "Gingko-iOS/External/UMFeedback"]
+	path = Gingko-iOS/External/UMFeedback
+	url = https://github.com/jcccn/UMeng-Feedback-iOS.git
+[submodule "Gingko-iOS/External/BaiduMap"]
+	path = Gingko-iOS/External/BaiduMap
+	url = https://github.com/jcccn/Baidu-Map-SDK-iOS.git
