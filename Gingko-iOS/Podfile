@@ -20,8 +20,6 @@ pod 'MagicalRecord', :head
 
 pod 'RETableViewManager', :head
 
-pod 'DTCoreText', :head
-
 pod 'KKPasscodeLock', :head
 
 pod 'ViewDeck', :head
