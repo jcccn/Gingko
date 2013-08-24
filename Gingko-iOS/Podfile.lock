@@ -3,7 +3,19 @@ PODS:
   - Appirater (HEAD based on 1.0.5)
   - BlocksKit (HEAD based on 1.8.2):
     - libffi
+  - CocoaAsyncSocket (HEAD based on 7.3.1)
+  - DTCoreText (HEAD based on 1.6.5):
+    - DTFoundation/Core (~> 1.5.1)
+    - DTFoundation/DTHTMLParser (~> 1.5.1)
+    - DTFoundation/UIKit (~> 1.5.1)
+  - DTFoundation/Core (1.5.2)
+  - DTFoundation/DTHTMLParser (1.5.2):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.5.2):
+    - DTFoundation/Core
+  - GPUImage (HEAD based on 0.1.0)
   - JSONKit (HEAD based on 1.5pre)
+  - KKPasscodeLock (HEAD based on 0.2.2)
   - libffi (3.0.13)
   - libwebp (0.3.0-rc7):
     - libwebp/dec
@@ -16,6 +28,7 @@ PODS:
   - libwebp/webp (0.3.0-rc7)
   - MagicalRecord (HEAD based on 2.1)
   - MBProgressHUD (HEAD based on 0.7)
+  - MTStatusBarOverlay (HEAD based on 0.9.1)
   - Reachability (HEAD based on 3.1.1)
   - REFormattedNumberField (1.0.4)
   - RestKit (HEAD based on 0.20.3):
@@ -42,29 +55,44 @@ PODS:
     - libwebp
   - SOCKit (1.1)
   - SVPullToRefresh (HEAD based on 0.4.1)
+  - TPKeyboardAvoiding (HEAD based on 1.1)
   - TransitionKit (1.1.1)
+  - ViewDeck (HEAD based on 2.3.1)
 
 DEPENDENCIES:
   - Appirater (HEAD)
   - BlocksKit (HEAD)
+  - CocoaAsyncSocket (HEAD)
+  - DTCoreText (HEAD)
+  - GPUImage (HEAD)
   - JSONKit (HEAD)
+  - KKPasscodeLock (HEAD)
   - MagicalRecord (HEAD)
   - MBProgressHUD (HEAD)
+  - MTStatusBarOverlay (HEAD)
   - Reachability (HEAD)
   - RestKit (HEAD)
   - RETableViewManager (HEAD)
   - SDWebImage (HEAD)
   - SVPullToRefresh (HEAD)
+  - TPKeyboardAvoiding (HEAD)
+  - ViewDeck (HEAD)
 
 SPEC CHECKSUMS:
   AFNetworking: 7f9bcd7c287a75476cd5c61e82fd3380e93e4c54
   Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
   BlocksKit: 7396526b0816734103f6133fbb1a520c8b04e80c
+  CocoaAsyncSocket: 6e59036ecae1e93d6c78f5766149983ceac558ba
+  DTCoreText: 8798221d6da3bc079be24e808f152910c6f5e264
+  DTFoundation: 6138b5437df0217bbeba2b5cec89d5e95cf7f0e8
+  GPUImage: 5b902c1df2afe0ac30a8e3e7379f9c0bb25c7c85
   JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  KKPasscodeLock: 6c09c2f50c3081f7fa02f08de7449859a8efed10
   libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
   libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
   MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
   MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  MTStatusBarOverlay: 2cee705996e4e307191d423bf49e583b9b2c14ac
   Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
   REFormattedNumberField: 74ac0f5ce7001102a461dd025d34c93be7794a00
   RestKit: 1f181c180105a92f11ec4f6cd7de37625e516d83
@@ -72,6 +100,8 @@ SPEC CHECKSUMS:
   SDWebImage: f13f791e411c632489824aa7f129e230b52bf5c4
   SOCKit: 2f3bc4d07910de12dcc202815e07db68a3802581
   SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+  TPKeyboardAvoiding: e1f92115fba393b45682fd48148d672b72a95c50
   TransitionKit: d0e3344aac92991395d4c2e72d9c5a8ceeb12910
+  ViewDeck: 2cdc67c4b41a10cafc7556b982f028409e33604d
 
 COCOAPODS: 0.23.0

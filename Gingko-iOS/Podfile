@@ -19,3 +19,17 @@ pod 'Appirater', :head
 pod 'MagicalRecord', :head
 
 pod 'RETableViewManager', :head
+
+pod 'DTCoreText', :head
+
+pod 'KKPasscodeLock', :head
+
+pod 'ViewDeck', :head
+
+pod 'TPKeyboardAvoiding', :head
+
+pod 'MTStatusBarOverlay', :head
+
+pod 'GPUImage', :head
+
+pod 'CocoaAsyncSocket', :head
