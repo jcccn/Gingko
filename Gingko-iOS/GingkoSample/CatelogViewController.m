@@ -39,4 +39,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.navigationController pushViewController:[[UIViewController alloc] init] animated:YES];
+//    [self presentViewController:[[UIViewController alloc] init] animated:YES completion:NULL];
+}
+
 @end

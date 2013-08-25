@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <RETableViewManager/RETableViewManager.h>
+#import "UIViewController+BaseViewController.h"
 
 @interface CatelogViewController : UITableViewController
 
