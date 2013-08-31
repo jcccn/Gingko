@@ -92,6 +92,10 @@
 		90620D3F17C7BF9000AFF3DB /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90620D3E17C7BF9000AFF3DB /* libstdc++.dylib */; };
 		90620D4117C7BFA000AFF3DB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90620D4017C7BFA000AFF3DB /* libsqlite3.dylib */; };
 		90620D4317C7BFA800AFF3DB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90620D4217C7BFA800AFF3DB /* CoreTelephony.framework */; };
+		906BF28C17D2357900477323 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28817D2357900477323 /* Default-Landscape@2x~ipad.png */; };
+		906BF28D17D2357900477323 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28917D2357900477323 /* Default-Landscape~ipad.png */; };
+		906BF28E17D2357900477323 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28A17D2357900477323 /* Default-Portrait@2x~ipad.png */; };
+		906BF28F17D2357900477323 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28B17D2357900477323 /* Default-Portrait~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -224,6 +228,10 @@
 		90620D3E17C7BF9000AFF3DB /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		90620D4017C7BFA000AFF3DB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		90620D4217C7BFA800AFF3DB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		906BF28817D2357900477323 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		906BF28917D2357900477323 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		906BF28A17D2357900477323 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		906BF28B17D2357900477323 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +476,10 @@
 				905E16DD17C652E50004A54E /* Default-568h@2x.png */,
 				905E16DE17C652E50004A54E /* Default.png */,
 				905E16DF17C652E50004A54E /* Default@2x.png */,
+				906BF28817D2357900477323 /* Default-Landscape@2x~ipad.png */,
+				906BF28917D2357900477323 /* Default-Landscape~ipad.png */,
+				906BF28A17D2357900477323 /* Default-Portrait@2x~ipad.png */,
+				906BF28B17D2357900477323 /* Default-Portrait~ipad.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -751,6 +763,10 @@
 				904B954617C7DA1B00B375CA /* Icon@2x~iphone.png in Resources */,
 				904B954717C7DA1B00B375CA /* Icon~ipad.png in Resources */,
 				904B954817C7DA1B00B375CA /* Icon~iphone.png in Resources */,
+				906BF28C17D2357900477323 /* Default-Landscape@2x~ipad.png in Resources */,
+				906BF28D17D2357900477323 /* Default-Landscape~ipad.png in Resources */,
+				906BF28E17D2357900477323 /* Default-Portrait@2x~ipad.png in Resources */,
+				906BF28F17D2357900477323 /* Default-Portrait~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -889,6 +905,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GingkoSample/Gingko-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/GingkoSample/Gingko-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/External/BaiduMap/BaiduMap\"",
@@ -899,6 +916,7 @@
 					"\"$(SRCROOT)/External/UMFeedback/UMFeedback\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -920,6 +938,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GingkoSample/Gingko-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/GingkoSample/Gingko-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/External/BaiduMap/BaiduMap\"",
@@ -930,6 +949,7 @@
 					"\"$(SRCROOT)/External/UMFeedback/UMFeedback\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
