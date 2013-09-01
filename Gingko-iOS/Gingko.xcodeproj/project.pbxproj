@@ -96,6 +96,27 @@
 		906BF28D17D2357900477323 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28917D2357900477323 /* Default-Landscape~ipad.png */; };
 		906BF28E17D2357900477323 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28A17D2357900477323 /* Default-Portrait@2x~ipad.png */; };
 		906BF28F17D2357900477323 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BF28B17D2357900477323 /* Default-Portrait~ipad.png */; };
+		90D099FF17D370E100CC70CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905E168B17C649210004A54E /* UIKit.framework */; };
+		90D09A0017D370E100CC70CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905E168D17C649210004A54E /* Foundation.framework */; };
+		90D09A0117D370E100CC70CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905E168F17C649210004A54E /* CoreGraphics.framework */; };
+		90D09A0717D370E100CC70CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90D09A0517D370E100CC70CF /* InfoPlist.strings */; };
+		90D09A0917D370E100CC70CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D09A0817D370E100CC70CF /* main.m */; };
+		90F5C97117D3747D00340BAA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 183F907DDD0A4143842BA726 /* libPods.a */; };
+		90F5C98217D3781D00340BAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97317D3781D00340BAA /* Default-568h@2x.png */; };
+		90F5C98317D3781D00340BAA /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97417D3781D00340BAA /* Default-Landscape@2x~ipad.png */; };
+		90F5C98417D3781D00340BAA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97517D3781D00340BAA /* Default-Landscape~ipad.png */; };
+		90F5C98517D3781D00340BAA /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97617D3781D00340BAA /* Default-Portrait@2x~ipad.png */; };
+		90F5C98617D3781D00340BAA /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97717D3781D00340BAA /* Default-Portrait~ipad.png */; };
+		90F5C98717D3781D00340BAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97817D3781D00340BAA /* Default.png */; };
+		90F5C98817D3781D00340BAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97917D3781D00340BAA /* Default@2x.png */; };
+		90F5C98917D3781D00340BAA /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97A17D3781D00340BAA /* Icon-72.png */; };
+		90F5C98A17D3781D00340BAA /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97B17D3781D00340BAA /* Icon-72@2x.png */; };
+		90F5C98B17D3781D00340BAA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97C17D3781D00340BAA /* Icon.png */; };
+		90F5C98C17D3781D00340BAA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97D17D3781D00340BAA /* Icon@2x.png */; };
+		90F5C98D17D3781D00340BAA /* Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97E17D3781D00340BAA /* Icon@2x~ipad.png */; };
+		90F5C98E17D3781D00340BAA /* Icon@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C97F17D3781D00340BAA /* Icon@2x~iphone.png */; };
+		90F5C98F17D3781D00340BAA /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C98017D3781D00340BAA /* Icon~ipad.png */; };
+		90F5C99017D3781D00340BAA /* Icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5C98117D3781D00340BAA /* Icon~iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -232,6 +253,26 @@
 		906BF28917D2357900477323 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		906BF28A17D2357900477323 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		906BF28B17D2357900477323 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		90D099FE17D370E100CC70CF /* GingkoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GingkoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D09A0417D370E100CC70CF /* GingkoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GingkoTests-Info.plist"; sourceTree = "<group>"; };
+		90D09A0617D370E100CC70CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90D09A0817D370E100CC70CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90D09A0A17D370E100CC70CF /* GingkoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GingkoTests-Prefix.pch"; sourceTree = "<group>"; };
+		90F5C97317D3781D00340BAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		90F5C97417D3781D00340BAA /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		90F5C97517D3781D00340BAA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		90F5C97617D3781D00340BAA /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		90F5C97717D3781D00340BAA /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		90F5C97817D3781D00340BAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		90F5C97917D3781D00340BAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		90F5C97A17D3781D00340BAA /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		90F5C97B17D3781D00340BAA /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		90F5C97C17D3781D00340BAA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		90F5C97D17D3781D00340BAA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		90F5C97E17D3781D00340BAA /* Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		90F5C97F17D3781D00340BAA /* Icon@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~iphone.png"; sourceTree = "<group>"; };
+		90F5C98017D3781D00340BAA /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		90F5C98117D3781D00340BAA /* Icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +338,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90D099FB17D370E100CC70CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D099FF17D370E100CC70CF /* UIKit.framework in Frameworks */,
+				90D09A0017D370E100CC70CF /* Foundation.framework in Frameworks */,
+				90D09A0117D370E100CC70CF /* CoreGraphics.framework in Frameworks */,
+				90F5C97117D3747D00340BAA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -331,6 +383,7 @@
 				905E16D517C64EF70004A54E /* Gingko */,
 				905E16D417C64EF70004A54E /* External */,
 				905E16AE17C649B70004A54E /* GingkoSample */,
+				90D09A0217D370E100CC70CF /* GingkoTests */,
 				905E168A17C649210004A54E /* Frameworks */,
 				905E168917C649210004A54E /* Products */,
 				8CCCDC763B254EB8B52676C5 /* Pods.xcconfig */,
@@ -341,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				905E168817C649210004A54E /* Gingko.app */,
+				90D099FE17D370E100CC70CF /* GingkoTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -684,6 +738,49 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		90D09A0217D370E100CC70CF /* GingkoTests */ = {
+			isa = PBXGroup;
+			children = (
+				90F5C97217D3781D00340BAA /* Resources */,
+				90D09A0317D370E100CC70CF /* Supporting Files */,
+			);
+			path = GingkoTests;
+			sourceTree = "<group>";
+		};
+		90D09A0317D370E100CC70CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D09A0417D370E100CC70CF /* GingkoTests-Info.plist */,
+				90D09A0517D370E100CC70CF /* InfoPlist.strings */,
+				90D09A0817D370E100CC70CF /* main.m */,
+				90D09A0A17D370E100CC70CF /* GingkoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90F5C97217D3781D00340BAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90F5C97317D3781D00340BAA /* Default-568h@2x.png */,
+				90F5C97417D3781D00340BAA /* Default-Landscape@2x~ipad.png */,
+				90F5C97517D3781D00340BAA /* Default-Landscape~ipad.png */,
+				90F5C97617D3781D00340BAA /* Default-Portrait@2x~ipad.png */,
+				90F5C97717D3781D00340BAA /* Default-Portrait~ipad.png */,
+				90F5C97817D3781D00340BAA /* Default.png */,
+				90F5C97917D3781D00340BAA /* Default@2x.png */,
+				90F5C97A17D3781D00340BAA /* Icon-72.png */,
+				90F5C97B17D3781D00340BAA /* Icon-72@2x.png */,
+				90F5C97C17D3781D00340BAA /* Icon.png */,
+				90F5C97D17D3781D00340BAA /* Icon@2x.png */,
+				90F5C97E17D3781D00340BAA /* Icon@2x~ipad.png */,
+				90F5C97F17D3781D00340BAA /* Icon@2x~iphone.png */,
+				90F5C98017D3781D00340BAA /* Icon~ipad.png */,
+				90F5C98117D3781D00340BAA /* Icon~iphone.png */,
+			);
+			name = Resources;
+			path = GingkoSample/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -704,6 +801,23 @@
 			name = Gingko;
 			productName = Gingko;
 			productReference = 905E168817C649210004A54E /* Gingko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90D099FD17D370E100CC70CF /* GingkoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D09A1617D370E100CC70CF /* Build configuration list for PBXNativeTarget "GingkoTests" */;
+			buildPhases = (
+				90D099FA17D370E100CC70CF /* Sources */,
+				90D099FB17D370E100CC70CF /* Frameworks */,
+				90D099FC17D370E100CC70CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GingkoTests;
+			productName = GingkoTests;
+			productReference = 90D099FE17D370E100CC70CF /* GingkoTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -729,6 +843,7 @@
 			projectRoot = "";
 			targets = (
 				905E168717C649210004A54E /* Gingko */,
+				90D099FD17D370E100CC70CF /* GingkoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -767,6 +882,29 @@
 				906BF28D17D2357900477323 /* Default-Landscape~ipad.png in Resources */,
 				906BF28E17D2357900477323 /* Default-Portrait@2x~ipad.png in Resources */,
 				906BF28F17D2357900477323 /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D099FC17D370E100CC70CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D09A0717D370E100CC70CF /* InfoPlist.strings in Resources */,
+				90F5C98217D3781D00340BAA /* Default-568h@2x.png in Resources */,
+				90F5C98317D3781D00340BAA /* Default-Landscape@2x~ipad.png in Resources */,
+				90F5C98417D3781D00340BAA /* Default-Landscape~ipad.png in Resources */,
+				90F5C98517D3781D00340BAA /* Default-Portrait@2x~ipad.png in Resources */,
+				90F5C98617D3781D00340BAA /* Default-Portrait~ipad.png in Resources */,
+				90F5C98717D3781D00340BAA /* Default.png in Resources */,
+				90F5C98817D3781D00340BAA /* Default@2x.png in Resources */,
+				90F5C98917D3781D00340BAA /* Icon-72.png in Resources */,
+				90F5C98A17D3781D00340BAA /* Icon-72@2x.png in Resources */,
+				90F5C98B17D3781D00340BAA /* Icon.png in Resources */,
+				90F5C98C17D3781D00340BAA /* Icon@2x.png in Resources */,
+				90F5C98D17D3781D00340BAA /* Icon@2x~ipad.png in Resources */,
+				90F5C98E17D3781D00340BAA /* Icon@2x~iphone.png in Resources */,
+				90F5C98F17D3781D00340BAA /* Icon~ipad.png in Resources */,
+				90F5C99017D3781D00340BAA /* Icon~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +956,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90D099FA17D370E100CC70CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D09A0917D370E100CC70CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -825,6 +971,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				905E16D217C64A860004A54E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90D09A0517D370E100CC70CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D09A0617D370E100CC70CF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -954,6 +1108,114 @@
 			};
 			name = Release;
 		};
+		90D09A1417D370E100CC70CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCCDC763B254EB8B52676C5 /* Pods.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GingkoTests/GingkoTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
+				INFOPLIST_FILE = "GingkoTests/GingkoTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-Wl,-no_compact_unwind",
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					ImageIO,
+					"-framework",
+					MapKit,
+					"-framework",
+					MessageUI,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-weak_framework",
+					StoreKit,
+				);
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90D09A1517D370E100CC70CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCCDC763B254EB8B52676C5 /* Pods.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GingkoTests/GingkoTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
+				INFOPLIST_FILE = "GingkoTests/GingkoTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-Wl,-no_compact_unwind",
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					ImageIO,
+					"-framework",
+					MapKit,
+					"-framework",
+					MessageUI,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-weak_framework",
+					StoreKit,
+				);
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -971,6 +1233,15 @@
 			buildConfigurations = (
 				905E16AC17C649220004A54E /* Debug */,
 				905E16AD17C649220004A54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D09A1617D370E100CC70CF /* Build configuration list for PBXNativeTarget "GingkoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D09A1417D370E100CC70CF /* Debug */,
+				90D09A1517D370E100CC70CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

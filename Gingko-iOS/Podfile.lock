@@ -4,15 +4,7 @@ PODS:
   - BlocksKit (HEAD based on 1.8.2):
     - libffi
   - CocoaAsyncSocket (HEAD based on 7.3.1)
-  - DTCoreText (HEAD based on 1.6.5):
-    - DTFoundation/Core (~> 1.5.1)
-    - DTFoundation/DTHTMLParser (~> 1.5.1)
-    - DTFoundation/UIKit (~> 1.5.1)
-  - DTFoundation/Core (1.5.2)
-  - DTFoundation/DTHTMLParser (1.5.2):
-    - DTFoundation/Core
-  - DTFoundation/UIKit (1.5.2):
-    - DTFoundation/Core
+  - GHUnitIOS (HEAD based on 0.5.6)
   - GPUImage (HEAD based on 0.1.0)
   - JSONKit (HEAD based on 1.5pre)
   - KKPasscodeLock (HEAD based on 0.2.2)
@@ -29,6 +21,7 @@ PODS:
   - MagicalRecord (HEAD based on 2.1)
   - MBProgressHUD (HEAD based on 0.7)
   - MTStatusBarOverlay (HEAD based on 0.9.1)
+  - OCMock (HEAD based on 2.2.1)
   - Reachability (HEAD based on 3.1.1)
   - REFormattedNumberField (1.0.4)
   - RestKit (HEAD based on 0.20.3):
@@ -63,13 +56,14 @@ DEPENDENCIES:
   - Appirater (HEAD)
   - BlocksKit (HEAD)
   - CocoaAsyncSocket (HEAD)
-  - DTCoreText (HEAD)
+  - GHUnitIOS (HEAD)
   - GPUImage (HEAD)
   - JSONKit (HEAD)
   - KKPasscodeLock (HEAD)
   - MagicalRecord (HEAD)
   - MBProgressHUD (HEAD)
   - MTStatusBarOverlay (HEAD)
+  - OCMock (HEAD)
   - Reachability (HEAD)
   - RestKit (HEAD)
   - RETableViewManager (HEAD)
@@ -83,8 +77,7 @@ SPEC CHECKSUMS:
   Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
   BlocksKit: 7396526b0816734103f6133fbb1a520c8b04e80c
   CocoaAsyncSocket: 6e59036ecae1e93d6c78f5766149983ceac558ba
-  DTCoreText: 8798221d6da3bc079be24e808f152910c6f5e264
-  DTFoundation: 6138b5437df0217bbeba2b5cec89d5e95cf7f0e8
+  GHUnitIOS: bf149b2c44084eee2785ce4ac3675c3a699e509d
   GPUImage: 5b902c1df2afe0ac30a8e3e7379f9c0bb25c7c85
   JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
   KKPasscodeLock: 6c09c2f50c3081f7fa02f08de7449859a8efed10
@@ -93,6 +86,7 @@ SPEC CHECKSUMS:
   MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
   MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
   MTStatusBarOverlay: 2cee705996e4e307191d423bf49e583b9b2c14ac
+  OCMock: 80e4cfbc71a0e1bd28caf10a9fda27da7c4c8402
   Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
   REFormattedNumberField: 74ac0f5ce7001102a461dd025d34c93be7794a00
   RestKit: 1f181c180105a92f11ec4f6cd7de37625e516d83

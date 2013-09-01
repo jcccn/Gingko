@@ -31,3 +31,7 @@ pod 'MTStatusBarOverlay', :head
 pod 'GPUImage', :head
 
 pod 'CocoaAsyncSocket', :head
+
+pod 'GHUnitIOS', :head
+
+pod 'OCMock', :head
