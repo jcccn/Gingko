@@ -1,55 +1,52 @@
 PODS:
-  - AFNetworking (1.3.2)
-  - Appirater (HEAD based on 1.0.5)
-  - BlocksKit (HEAD based on 1.8.2):
+  - AFNetworking (1.3.3)
+  - Appirater (HEAD based on 2.0.2)
+  - BlocksKit (HEAD based on 1.8.3):
     - libffi
-  - CocoaAsyncSocket (HEAD based on 7.3.1)
-  - GHUnitIOS (HEAD based on 0.5.6)
-  - GPUImage (HEAD based on 0.1.0)
+  - CocoaAsyncSocket (HEAD based on 7.3.2)
+  - GHUnitIOS (HEAD based on 0.5.8)
+  - GPUImage (HEAD based on 0.1.1)
+  - ISO8601DateFormatterValueTransformer (0.5.0):
+    - RKValueTransformers (~> 1.0.0)
   - JSONKit (HEAD based on 1.5pre)
   - KKPasscodeLock (HEAD based on 0.2.2)
   - libffi (3.0.13)
-  - libwebp (0.3.0-rc7):
-    - libwebp/dec
-    - libwebp/dsp
-    - libwebp/utils
-    - libwebp/webp
-  - libwebp/dec (0.3.0-rc7)
-  - libwebp/dsp (0.3.0-rc7)
-  - libwebp/utils (0.3.0-rc7)
-  - libwebp/webp (0.3.0-rc7)
-  - MagicalRecord (HEAD based on 2.1)
-  - MBProgressHUD (HEAD based on 0.7)
+  - MagicalRecord (HEAD based on 2.2)
+  - MBProgressHUD (HEAD based on 0.8)
   - MTStatusBarOverlay (HEAD based on 0.9.1)
   - OCMock (HEAD based on 2.2.1)
   - Reachability (HEAD based on 3.1.1)
-  - REFormattedNumberField (1.0.4)
-  - RestKit (HEAD based on 0.20.3):
+  - REFormattedNumberField (1.1.1)
+  - RestKit (HEAD based on 0.22.0):
     - RestKit/Core
-  - RestKit/Core (HEAD based on 0.20.3):
+  - RestKit/Core (HEAD based on 0.22.0):
     - RestKit/CoreData
     - RestKit/Network
     - RestKit/ObjectMapping
-  - RestKit/CoreData (HEAD based on 0.20.3)
-  - RestKit/Network (HEAD based on 0.20.3):
+  - RestKit/CoreData (HEAD based on 0.22.0)
+  - RestKit/Network (HEAD based on 0.22.0):
     - AFNetworking (~> 1.3.0)
     - RestKit/ObjectMapping
     - RestKit/Support
     - SOCKit
-  - RestKit/ObjectMapping (HEAD based on 0.20.3)
-  - RestKit/Support (HEAD based on 0.20.3):
-    - TransitionKit (= 1.1.1)
-  - RETableViewManager (HEAD based on 1.1.3):
-    - REFormattedNumberField (~> 1.0.4)
-  - SDWebImage (HEAD based on 3.4):
-    - libwebp
-    - SDWebImage/MapKit
-  - SDWebImage/MapKit (HEAD based on 3.4):
-    - libwebp
+  - RestKit/ObjectMapping (HEAD based on 0.22.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.5.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.0.1)
+  - RestKit/Support (HEAD based on 0.22.0):
+    - TransitionKit (= 2.0.0)
+  - RETableViewManager (HEAD based on 1.5.7):
+    - REFormattedNumberField (~> 1.1.1)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - RKValueTransformers (1.0.1)
+  - SDWebImage (HEAD based on 3.5):
+    - SDWebImage/Core
+  - SDWebImage/Core (HEAD based on 3.5)
   - SOCKit (1.1)
   - SVPullToRefresh (HEAD based on 0.4.1)
-  - TPKeyboardAvoiding (HEAD based on 1.1)
-  - TransitionKit (1.1.1)
+  - TPKeyboardAvoiding (HEAD based on 1.2.1)
+  - TransitionKit (2.0.0)
   - ViewDeck (HEAD based on 2.3.1)
 
 DEPENDENCIES:
@@ -73,29 +70,31 @@ DEPENDENCIES:
   - ViewDeck (HEAD)
 
 SPEC CHECKSUMS:
-  AFNetworking: 7f9bcd7c287a75476cd5c61e82fd3380e93e4c54
-  Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
-  BlocksKit: 7396526b0816734103f6133fbb1a520c8b04e80c
-  CocoaAsyncSocket: 6e59036ecae1e93d6c78f5766149983ceac558ba
-  GHUnitIOS: bf149b2c44084eee2785ce4ac3675c3a699e509d
-  GPUImage: 5b902c1df2afe0ac30a8e3e7379f9c0bb25c7c85
+  AFNetworking: 0700ec7a58c36ad217173e167f6e4df7270df66b
+  Appirater: 32fb9089615b5e542c7ad7b5749741a8aed55290
+  BlocksKit: 27257f9cbbec0ea98c80ba83cc2ea7111ae62eb2
+  CocoaAsyncSocket: 977404129ec8505fee1c3701956b769e3bb10ea7
+  GHUnitIOS: 23167e22b8abe162d71f86bd4bda7550e53414cb
+  GPUImage: b9840114a0ad0323801c2e0aa2752679057f808d
+  ISO8601DateFormatterValueTransformer: d0af1f50a9df42db72d7418db31938b8473e0af8
   JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
   KKPasscodeLock: 6c09c2f50c3081f7fa02f08de7449859a8efed10
   libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
-  libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
-  MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
-  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
   MTStatusBarOverlay: 2cee705996e4e307191d423bf49e583b9b2c14ac
   OCMock: 80e4cfbc71a0e1bd28caf10a9fda27da7c4c8402
-  Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
-  REFormattedNumberField: 74ac0f5ce7001102a461dd025d34c93be7794a00
-  RestKit: 1f181c180105a92f11ec4f6cd7de37625e516d83
-  RETableViewManager: 4d9cfeb2cf6a0344c0f4d1b4c0ba00ef3debf385
-  SDWebImage: f13f791e411c632489824aa7f129e230b52bf5c4
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  REFormattedNumberField: 53db6b5097b02f608999b7c95ec8ccda95be93be
+  RestKit: dc107a0aa4f962575ad0385bac5b3c5e4f591f4e
+  RETableViewManager: 1a416f4d862934c8d998827c221158d596da243c
+  REValidation: 02160035110a63af1bf6ad1b8791837b3fa13584
+  RKValueTransformers: 1562d458b9c9d59ce777bfc5982f2e1aef2e9182
+  SDWebImage: f1a72472f8a2d54445f1fedafe2090593d9caf7f
   SOCKit: 2f3bc4d07910de12dcc202815e07db68a3802581
   SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
-  TPKeyboardAvoiding: e1f92115fba393b45682fd48148d672b72a95c50
-  TransitionKit: d0e3344aac92991395d4c2e72d9c5a8ceeb12910
+  TPKeyboardAvoiding: 0536c563e6c8b8e95a7c4bf87fca9c0991f5e826
+  TransitionKit: 433284465abacdc07852d7db6dd0cc075010059a
   ViewDeck: 2cdc67c4b41a10cafc7556b982f028409e33604d
 
-COCOAPODS: 0.23.0
+COCOAPODS: 0.28.0
