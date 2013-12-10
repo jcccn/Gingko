@@ -3,7 +3,7 @@
 //  GingkoTests
 //
 //  Created by Jiang Chuncheng on 9/1/13.
-//  Copyright (c) 2013 senseforce. All rights reserved.
+//  Copyright (c) 2013 SenseForce. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

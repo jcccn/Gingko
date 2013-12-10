@@ -3,7 +3,7 @@
 //  Gingko
 //
 //  Created by Jiang Chuncheng on 8/22/13.
-//  Copyright (c) 2013 senseforce. All rights reserved.
+//  Copyright (c) 2013 SenseForce. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
