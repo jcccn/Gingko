@@ -14,3 +14,36 @@
 #import "GKService.h"
 
 #endif
+
+
+/**
+ *  ---------  依赖的第三方库列表  --------
+ ***************************************
+ 
+ **************   git子模块  ************
+ BaiduMap
+ ShareSDK
+ UMAnalytics
+ UMFeedback
+ 
+ **************  CocoaPods  ************
+ BlocksKit
+ DTCoreText
+ FMDB
+ JSBadgeView
+ JSONKit
+ MBProgressHUD
+ MagicalRecord
+ RETableViewManager
+ Reachability
+ RestKit
+ SDWebImage
+ UIImage-Categories
+ XMPPFramework
+ ADTransitionController
+ BDMultiDownloader
+ ELCImagePickerController
+ WebViewJavascriptBridge
+ 
+ *
+ */

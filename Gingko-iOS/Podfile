@@ -2,36 +2,54 @@ platform :ios,'6.0'
 
 pod 'JSONKit', :head
 
-pod 'SVPullToRefresh', :head
+pod 'SVPullToRefresh'
 
-pod 'SDWebImage', :head
+pod 'SDWebImage'
 
-pod 'RestKit', :head
+pod 'RestKit'
 
-pod 'MBProgressHUD', :head
+pod 'MBProgressHUD'
 
-pod 'Reachability', :head
+pod 'Reachability'
 
-pod 'BlocksKit', :head
+pod 'BlocksKit'
 
-pod 'Appirater', :head
+pod 'Appirater'
 
-pod 'MagicalRecord', :head
+pod 'MagicalRecord'
 
-pod 'RETableViewManager', :head
+pod 'RETableViewManager'
 
-pod 'KKPasscodeLock', :head
+pod 'KKPasscodeLock'
 
-pod 'ViewDeck', :head
+pod 'ViewDeck'
 
-pod 'TPKeyboardAvoiding', :head
+pod 'TPKeyboardAvoiding'
 
-pod 'MTStatusBarOverlay', :head
+pod 'MTStatusBarOverlay'
 
-pod 'GPUImage', :head
+pod 'GPUImage'
 
-pod 'CocoaAsyncSocket', :head
+pod 'CocoaAsyncSocket'
 
-pod 'GHUnitIOS', :head
+pod 'GHUnitIOS'
 
-pod 'OCMock', :head
+pod 'OCMock'
+
+pod 'DTCoreText'
+
+pod 'FMDB'
+
+pod 'JSBadgeView'
+
+pod 'UIImage-Categories'
+
+pod 'XMPPFramework'
+
+pod 'BDMultiDownloader'
+
+pod 'ADTransitionController'
+
+pod 'ELCImagePickerController'
+
+pod 'WebViewJavascriptBridge'

@@ -8,7 +8,9 @@
 
 #import "GKBaseViewController.h"
 
-@interface GKBaseViewController ()
+@interface GKBaseViewController () {
+    NSString *kvoTokenTitle;
+}
 
 @end
 
@@ -25,14 +27,46 @@
 
 - (void)viewDidLoad
 {
+    [self loadParam];
+    
+    [self loadData];
+    
     [super viewDidLoad];
-	
+    
+	[self initSubviews];
+}
+
+- (void)loadParam {
+    
+}
+
+- (void)loadData {
+    
+}
+
+- (void)initSubviews {
+    WeakSelf
+    kvoTokenTitle = [self bk_addObserverForKeyPath:@"title" task:^(id sender) {
+        weakSelf.titleBar.title = weakSelf.title;
+    }];
+}
+
+- (void)freeData {
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc {
+    [self freeData];
+    
+    if (kvoTokenTitle) {
+        [self bk_removeObserversWithIdentifier:kvoTokenTitle];
+    }
 }
 
 @end
