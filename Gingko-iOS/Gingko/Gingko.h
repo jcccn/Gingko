@@ -44,6 +44,7 @@
  BDMultiDownloader
  ELCImagePickerController
  WebViewJavascriptBridge
+ JRSwizzle
  
  *
  */
