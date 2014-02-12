@@ -43,6 +43,7 @@ PODS:
   - GPUImage (0.1.2)
   - ISO8601DateFormatterValueTransformer (0.5.0):
     - RKValueTransformers (~> 1.0.0)
+  - JRSwizzle (1.0)
   - JSBadgeView (1.3.1)
   - JSONKit (HEAD based on 1.5pre)
   - KKPasscodeLock (0.2.2)
@@ -230,6 +231,7 @@ DEPENDENCIES:
   - FMDB
   - GHUnitIOS
   - GPUImage
+  - JRSwizzle
   - JSBadgeView
   - JSONKit (HEAD)
   - KKPasscodeLock
@@ -263,6 +265,7 @@ SPEC CHECKSUMS:
   GHUnitIOS: 23167e22b8abe162d71f86bd4bda7550e53414cb
   GPUImage: 007145faa0e27f1ddbcab93e07f026c9776e2fa2
   ISO8601DateFormatterValueTransformer: d0af1f50a9df42db72d7418db31938b8473e0af8
+  JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
   JSBadgeView: e879273caddd2fc94b81689668da8a0f0c99a85c
   JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
   KKPasscodeLock: 6c09c2f50c3081f7fa02f08de7449859a8efed10

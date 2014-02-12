@@ -53,3 +53,5 @@ pod 'ADTransitionController'
 pod 'ELCImagePickerController'
 
 pod 'WebViewJavascriptBridge'
+
+pod 'JRSwizzle'
