@@ -46,9 +46,11 @@
 
 - (void)initSubviews {
     WeakSelf
+    /*
     kvoTokenTitle = [self bk_addObserverForKeyPath:@"title" task:^(id sender) {
         weakSelf.titleBar.title = weakSelf.title;
     }];
+     */
 }
 
 - (void)freeData {
@@ -64,9 +66,11 @@
 - (void)dealloc {
     [self freeData];
     
+    /*
     if (kvoTokenTitle) {
         [self bk_removeObserversWithIdentifier:kvoTokenTitle];
     }
+     */
 }
 
 @end
