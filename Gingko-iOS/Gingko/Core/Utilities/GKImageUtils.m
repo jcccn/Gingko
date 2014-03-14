@@ -17,8 +17,17 @@
     
     CGFloat maxImageViewWidth = MAX(imageViewRect.size.width, imageViewRect.size.height);
     NSInteger fitThumbnailWidth;
-    if (maxImageViewWidth > 321) {
+    if (maxImageViewWidth > 569) {
         return NSIntegerMax;
+    }
+    else if (maxImageViewWidth > 500) {
+        fitThumbnailWidth = 600;
+    }
+    else if (maxImageViewWidth > 401) {
+        fitThumbnailWidth = 500;
+    }
+    else if (maxImageViewWidth > 301) {
+        fitThumbnailWidth = 400;
     }
     else if (maxImageViewWidth > 201) {
         fitThumbnailWidth = 300;
