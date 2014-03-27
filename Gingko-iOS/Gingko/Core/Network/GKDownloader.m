@@ -44,7 +44,7 @@
     }
     [[SDWebImageManager sharedManager] downloadWithURL:[NSURL URLWithString:urlString]
                                                options:0
-                                              progress:^(NSUInteger receivedSize, long long expectedSize) {
+                                              progress:^(NSInteger receivedSize, NSInteger expectedSize) {
                                                   if (progressBlock) {
                                                       progressBlock(receivedSize / ((CGFloat)expectedSize));
                                                   }
