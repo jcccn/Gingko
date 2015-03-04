@@ -1,0 +1,54 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios,'7.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+#Core
+
+#MVC
+
+#Service
+
+pod 'SVPullToRefresh'
+
+pod 'SDWebImage'
+
+pod 'RestKit'
+
+pod 'MBProgressHUD'
+
+pod 'SVProgressHUD'
+
+pod 'Reachability'
+
+pod 'BlocksKit'
+
+pod 'Appirater'
+
+pod 'MagicalRecord'
+
+pod 'RETableViewManager'
+
+pod 'TPKeyboardAvoiding'
+
+pod 'DTCoreText'
+
+pod 'UIImage-Categories'
+
+pod 'BDMultiDownloader'
+
+pod 'ADTransitionController'
+
+pod 'ELCImagePickerController'
+
+pod 'WebViewJavascriptBridge'
+
+pod 'UMAnalytics', :git => 'https://github.com/jcccn/UMeng-Analytics-iOS.git'
+
+pod 'UMFeedback', :git => 'https://github.com/jcccn/UMeng-Feedback-iOS.git'
+
+pod 'BaiduMap', :git => 'https://github.com/jcccn/Baidu-Map-SDK-iOS.git'
+
+pod 'ShareSDK', :git => 'https://github.com/jcccn/ShareSDK-iOS.git'
