@@ -1,4 +1,7 @@
 language: objective-c
-rvm: 1.9.3
+rvm: 2.0.0
 before_install:
   - cd Gingko-iOS
+install:
+  - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+  - pod install
