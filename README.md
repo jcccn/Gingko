@@ -12,18 +12,18 @@ To install Gingko with CocoaPods, the private CocoaPods repo [jcccn](https://git
 For example, an available Podfile could be like this:
 
 ```ruby
+# The front repo is prior if conflicted
+# [REQUIRED]CocoaPods private repo
+source 'https://github.com/jcccn/PodSpecs.git'
+# CocoaPods master repo
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios,'7.0'
 
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
-# CocoaPods master repo
-source 'https://github.com/CocoaPods/Specs.git'
-
 pod 'AFNetworking'
-
-# [REQUIRED]CocoaPods private repo
-source 'https://github.com/jcccn/PodSpecs.git'
 
 pod 'Gingko'
 
